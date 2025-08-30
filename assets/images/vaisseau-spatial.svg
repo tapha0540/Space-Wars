@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Groupe global -->
+  <g stroke="#000" stroke-width="16" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <!-- Fuselage clair -->
+    <path d="M256 48l24 64v224l-24 64-24-64V112z" fill="#e9eff1"/>
+    <!-- Nez et base gris -->
+    <path d="M256 48l-20 56h40z" fill="#7e8ca2"/>
+    <path d="M236 400h40l-20 40z" fill="#7e8ca2"/>
+    <!-- Détails nez (ronds) -->
+    <circle cx="256" cy="144" r="8" fill="#000"/>
+    <circle cx="256" cy="112" r="8" fill="#000"/>
+    <!-- Verrière bleue -->
+    <path d="M224 176l32-16 32 16-32 24z" fill="#9ee8ff"/>
+    <!-- Nacelle centrale claire -->
+    <path d="M224 192v176h64V192l-32 24z" fill="#e9eff1"/>
+    <!-- Aile gauche (claire) -->
+    <path d="M56 288l160 48V232L56 288z" fill="#e9eff1"/>
+    <!-- Aile droite (claire) -->
+    <path d="M456 288l-160 48V232l160 56z" fill="#e9eff1"/>
+    <!-- Ailerons rose -->
+    <path d="M80 360l104-24v64L80 360z" fill="#f48b98"/>
+    <path d="M432 360l-104-24v64l104-40z" fill="#f48b98"/>
+    <!-- Entrées latérales (canons) -->
+    <rect x="112" y="296" width="24" height="48" rx="6" fill="#7e8ca2"/>
+    <rect x="376" y="296" width="24" height="48" rx="6" fill="#7e8ca2"/>
+    <!-- Bloc central rose -->
+    <path d="M240 224v144h32V224l-16-12z" fill="#f48b98"/>
+    <!-- Bord supérieur verrière (noir épais déjà via stroke) -->
+    <path d="M208 200l48-32 48 32" />
+  </g>
+</svg>

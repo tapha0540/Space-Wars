@@ -1,0 +1,3 @@
+/home/tapha/C++/Tictactoe/build/CMakeFiles/Tictactoe.dir
+/home/tapha/C++/Tictactoe/build/CMakeFiles/edit_cache.dir
+/home/tapha/C++/Tictactoe/build/CMakeFiles/rebuild_cache.dir
