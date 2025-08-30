@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tapha/C++/Tictactoe
+CMAKE_SOURCE_DIR = /home/tapha/C++/Space-Wars
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tapha/C++/Tictactoe/build
+CMAKE_BINARY_DIR = /home/tapha/C++/Space-Wars/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Tictactoe.dir/all
+all: CMakeFiles/Space-Wars.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Tictactoe.dir/clean
+clean: CMakeFiles/Space-Wars.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Tictactoe.dir
+# Target rules for target CMakeFiles/Space-Wars.dir
 
 # All Build rule for target.
-CMakeFiles/Tictactoe.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/C++/Tictactoe/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Tictactoe"
-.PHONY : CMakeFiles/Tictactoe.dir/all
+CMakeFiles/Space-Wars.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Space-Wars"
+.PHONY : CMakeFiles/Space-Wars.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Tictactoe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Tictactoe/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tictactoe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Tictactoe/build/CMakeFiles 0
-.PHONY : CMakeFiles/Tictactoe.dir/rule
+CMakeFiles/Space-Wars.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Space-Wars.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles 0
+.PHONY : CMakeFiles/Space-Wars.dir/rule
 
 # Convenience name for target.
-Tictactoe: CMakeFiles/Tictactoe.dir/rule
-.PHONY : Tictactoe
+Space-Wars: CMakeFiles/Space-Wars.dir/rule
+.PHONY : Space-Wars
 
 # clean rule for target.
-CMakeFiles/Tictactoe.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/clean
-.PHONY : CMakeFiles/Tictactoe.dir/clean
+CMakeFiles/Space-Wars.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/clean
+.PHONY : CMakeFiles/Space-Wars.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

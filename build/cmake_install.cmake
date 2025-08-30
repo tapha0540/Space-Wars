@@ -1,4 +1,4 @@
-# Install script for directory: /home/tapha/C++/Tictactoe
+# Install script for directory: /home/tapha/C++/Space-Wars
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tapha/C++/Tictactoe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tapha/C++/Space-Wars/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

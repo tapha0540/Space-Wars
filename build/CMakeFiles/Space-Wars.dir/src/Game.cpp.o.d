@@ -1,6 +1,6 @@
-CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.o: \
- /home/tapha/C++/Tictactoe/src/BadGuy.cpp /usr/include/stdc-predef.h \
- /home/tapha/C++/Tictactoe/src/../include/BadGuy.hpp \
+CMakeFiles/Space-Wars.dir/src/Game.cpp.o: \
+ /home/tapha/C++/Space-Wars/src/Game.cpp /usr/include/stdc-predef.h \
+ /home/tapha/C++/Space-Wars/src/../include/Game.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -234,4 +234,6 @@ CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp
+ /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/tapha/C++/Space-Wars/src/../include/../include/Player.hpp \
+ /home/tapha/C++/Space-Wars/src/../include/../include/BadGuy.hpp

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Tictactoe)
+project(Space-Wars)
 
 # trouver SFML
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
@@ -8,6 +8,6 @@ include_directories(include)
 # Fichiers sources
 file(GLOB SOURCES src/*.cpp)
 # créer l'éxécutable
-add_executable(Tictactoe ${SOURCES})
+add_executable(Space-Wars ${SOURCES})
 #Lier SFML
-target_link_libraries(Tictactoe sfml-graphics sfml-window sfml-system)
+target_link_libraries(Space-Wars sfml-graphics sfml-window sfml-system)

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tapha/C++/Tictactoe
+CMAKE_SOURCE_DIR = /home/tapha/C++/Space-Wars
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tapha/C++/Tictactoe/build
+CMAKE_BINARY_DIR = /home/tapha/C++/Space-Wars/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Tictactoe/build/CMakeFiles /home/tapha/C++/Tictactoe/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles /home/tapha/C++/Space-Wars/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Tictactoe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tictactoe
+# Target rules for targets named Space-Wars
 
 # Build rule for target.
-Tictactoe: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tictactoe
-.PHONY : Tictactoe
+Space-Wars: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Space-Wars
+.PHONY : Space-Wars
 
 # fast build rule for target.
-Tictactoe/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/build
-.PHONY : Tictactoe/fast
+Space-Wars/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/build
+.PHONY : Space-Wars/fast
 
 src/BadGuy.o: src/BadGuy.cpp.o
 .PHONY : src/BadGuy.o
 
 # target to build an object file
 src/BadGuy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o
 .PHONY : src/BadGuy.cpp.o
 
 src/BadGuy.i: src/BadGuy.cpp.i
@@ -142,7 +142,7 @@ src/BadGuy.i: src/BadGuy.cpp.i
 
 # target to preprocess a source file
 src/BadGuy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.i
 .PHONY : src/BadGuy.cpp.i
 
 src/BadGuy.s: src/BadGuy.cpp.s
@@ -150,7 +150,7 @@ src/BadGuy.s: src/BadGuy.cpp.s
 
 # target to generate assembly for a file
 src/BadGuy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s
 .PHONY : src/BadGuy.cpp.s
 
 src/Game.o: src/Game.cpp.o
@@ -158,7 +158,7 @@ src/Game.o: src/Game.cpp.o
 
 # target to build an object file
 src/Game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Game.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Game.cpp.o
 .PHONY : src/Game.cpp.o
 
 src/Game.i: src/Game.cpp.i
@@ -166,7 +166,7 @@ src/Game.i: src/Game.cpp.i
 
 # target to preprocess a source file
 src/Game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Game.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Game.cpp.i
 .PHONY : src/Game.cpp.i
 
 src/Game.s: src/Game.cpp.s
@@ -174,7 +174,7 @@ src/Game.s: src/Game.cpp.s
 
 # target to generate assembly for a file
 src/Game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Game.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
 src/Player.o: src/Player.cpp.o
@@ -182,7 +182,7 @@ src/Player.o: src/Player.cpp.o
 
 # target to build an object file
 src/Player.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Player.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Player.cpp.o
 .PHONY : src/Player.cpp.o
 
 src/Player.i: src/Player.cpp.i
@@ -190,7 +190,7 @@ src/Player.i: src/Player.cpp.i
 
 # target to preprocess a source file
 src/Player.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Player.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Player.cpp.i
 .PHONY : src/Player.cpp.i
 
 src/Player.s: src/Player.cpp.s
@@ -198,7 +198,7 @@ src/Player.s: src/Player.cpp.s
 
 # target to generate assembly for a file
 src/Player.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/Player.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -206,7 +206,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -214,7 +214,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -222,7 +222,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tictactoe.dir/build.make CMakeFiles/Tictactoe.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Tictactoe"
+	@echo "... Space-Wars"
 	@echo "... src/BadGuy.o"
 	@echo "... src/BadGuy.i"
 	@echo "... src/BadGuy.s"

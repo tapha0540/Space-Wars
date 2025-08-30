@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tapha/C++/Tictactoe/src/BadGuy.cpp" "CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.o" "gcc" "CMakeFiles/Tictactoe.dir/src/BadGuy.cpp.o.d"
-  "/home/tapha/C++/Tictactoe/src/Game.cpp" "CMakeFiles/Tictactoe.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Tictactoe.dir/src/Game.cpp.o.d"
-  "/home/tapha/C++/Tictactoe/src/Player.cpp" "CMakeFiles/Tictactoe.dir/src/Player.cpp.o" "gcc" "CMakeFiles/Tictactoe.dir/src/Player.cpp.o.d"
-  "/home/tapha/C++/Tictactoe/src/main.cpp" "CMakeFiles/Tictactoe.dir/src/main.cpp.o" "gcc" "CMakeFiles/Tictactoe.dir/src/main.cpp.o.d"
+  "/home/tapha/C++/Space-Wars/src/BadGuy.cpp" "CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o" "gcc" "CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o.d"
+  "/home/tapha/C++/Space-Wars/src/Game.cpp" "CMakeFiles/Space-Wars.dir/src/Game.cpp.o" "gcc" "CMakeFiles/Space-Wars.dir/src/Game.cpp.o.d"
+  "/home/tapha/C++/Space-Wars/src/Player.cpp" "CMakeFiles/Space-Wars.dir/src/Player.cpp.o" "gcc" "CMakeFiles/Space-Wars.dir/src/Player.cpp.o.d"
+  "/home/tapha/C++/Space-Wars/src/main.cpp" "CMakeFiles/Space-Wars.dir/src/main.cpp.o" "gcc" "CMakeFiles/Space-Wars.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
