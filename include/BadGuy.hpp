@@ -3,7 +3,7 @@
 
 class BadGuy {
 	public:
-		BadGuy(const std::string& textureImagePath);
+		BadGuy(const std::string& textureImagePath, std::vector<std::string>& errorsMessages);
 		
 		void drawOn(sf::RenderWindow& window);
 		void handleInput();

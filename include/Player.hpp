@@ -3,10 +3,10 @@
 class Player {
 	public:
 	
-		Player(const std::string& textureImagePath);
+		Player(const std::string& textureImagePath, std::vector<std::string>& errorsMessages);
 		
 		void drawOn(sf::RenderWindow& window);
-		void handleInput();
+		void handleInput(sf::RenderWindow& window);
 	private:
 	
 		sf::Texture texture;

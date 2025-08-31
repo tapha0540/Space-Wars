@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tapha/C++/Space-Wars/include
+CXX_INCLUDES = -I/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include
 
 CXX_FLAGS = 
 

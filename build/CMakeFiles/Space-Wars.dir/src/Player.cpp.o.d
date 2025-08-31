@@ -1,6 +1,7 @@
 CMakeFiles/Space-Wars.dir/src/Player.cpp.o: \
- /home/tapha/C++/Space-Wars/src/Player.cpp /usr/include/stdc-predef.h \
- /home/tapha/C++/Space-Wars/src/../include/Player.hpp \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Player.cpp \
+ /usr/include/stdc-predef.h \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/../include/Player.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \

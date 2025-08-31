@@ -1,6 +1,7 @@
 CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o: \
- /home/tapha/C++/Space-Wars/src/BadGuy.cpp /usr/include/stdc-predef.h \
- /home/tapha/C++/Space-Wars/src/../include/BadGuy.hpp \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/BadGuy.cpp \
+ /usr/include/stdc-predef.h \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/../include/BadGuy.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \

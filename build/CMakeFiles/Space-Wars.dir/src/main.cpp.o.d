@@ -1,6 +1,7 @@
 CMakeFiles/Space-Wars.dir/src/main.cpp.o: \
- /home/tapha/C++/Space-Wars/src/main.cpp /usr/include/stdc-predef.h \
- /home/tapha/C++/Space-Wars/include/Game.hpp \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/main.cpp \
+ /usr/include/stdc-predef.h \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/Game.hpp \
  /usr/include/SFML/Graphics.hpp /usr/include/SFML/Window.hpp \
  /usr/include/SFML/System.hpp /usr/include/SFML/Config.hpp \
  /usr/include/SFML/System/Clock.hpp /usr/include/SFML/System/Export.hpp \
@@ -235,5 +236,6 @@ CMakeFiles/Space-Wars.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
- /home/tapha/C++/Space-Wars/include/../include/Player.hpp \
- /home/tapha/C++/Space-Wars/include/../include/BadGuy.hpp
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/Player.hpp \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/BadGuy.hpp \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/Fireball.hpp

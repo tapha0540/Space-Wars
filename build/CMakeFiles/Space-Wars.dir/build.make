@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tapha/C++/Space-Wars
+CMAKE_SOURCE_DIR = /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tapha/C++/Space-Wars/build
+CMAKE_BINARY_DIR = /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Space-Wars.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/Space-Wars.dir/progress.make
 include CMakeFiles/Space-Wars.dir/flags.make
 
 CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o: CMakeFiles/Space-Wars.dir/flags.make
-CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o: /home/tapha/C++/Space-Wars/src/BadGuy.cpp
+CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o: /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/BadGuy.cpp
 CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o: CMakeFiles/Space-Wars.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o -MF CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o -c /home/tapha/C++/Space-Wars/src/BadGuy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o -MF CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o -c /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/BadGuy.cpp
 
 CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/C++/Space-Wars/src/BadGuy.cpp > CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/BadGuy.cpp > CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.i
 
 CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/C++/Space-Wars/src/BadGuy.cpp -o CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/BadGuy.cpp -o CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s
 
 CMakeFiles/Space-Wars.dir/src/Game.cpp.o: CMakeFiles/Space-Wars.dir/flags.make
-CMakeFiles/Space-Wars.dir/src/Game.cpp.o: /home/tapha/C++/Space-Wars/src/Game.cpp
+CMakeFiles/Space-Wars.dir/src/Game.cpp.o: /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Game.cpp
 CMakeFiles/Space-Wars.dir/src/Game.cpp.o: CMakeFiles/Space-Wars.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Space-Wars.dir/src/Game.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/Game.cpp.o -MF CMakeFiles/Space-Wars.dir/src/Game.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/Game.cpp.o -c /home/tapha/C++/Space-Wars/src/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Space-Wars.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/Game.cpp.o -MF CMakeFiles/Space-Wars.dir/src/Game.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/Game.cpp.o -c /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Game.cpp
 
 CMakeFiles/Space-Wars.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Space-Wars.dir/src/Game.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/C++/Space-Wars/src/Game.cpp > CMakeFiles/Space-Wars.dir/src/Game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Game.cpp > CMakeFiles/Space-Wars.dir/src/Game.cpp.i
 
 CMakeFiles/Space-Wars.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Space-Wars.dir/src/Game.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/C++/Space-Wars/src/Game.cpp -o CMakeFiles/Space-Wars.dir/src/Game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Game.cpp -o CMakeFiles/Space-Wars.dir/src/Game.cpp.s
 
 CMakeFiles/Space-Wars.dir/src/Player.cpp.o: CMakeFiles/Space-Wars.dir/flags.make
-CMakeFiles/Space-Wars.dir/src/Player.cpp.o: /home/tapha/C++/Space-Wars/src/Player.cpp
+CMakeFiles/Space-Wars.dir/src/Player.cpp.o: /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Player.cpp
 CMakeFiles/Space-Wars.dir/src/Player.cpp.o: CMakeFiles/Space-Wars.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Space-Wars.dir/src/Player.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/Player.cpp.o -MF CMakeFiles/Space-Wars.dir/src/Player.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/Player.cpp.o -c /home/tapha/C++/Space-Wars/src/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Space-Wars.dir/src/Player.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/Player.cpp.o -MF CMakeFiles/Space-Wars.dir/src/Player.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/Player.cpp.o -c /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Player.cpp
 
 CMakeFiles/Space-Wars.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Space-Wars.dir/src/Player.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/C++/Space-Wars/src/Player.cpp > CMakeFiles/Space-Wars.dir/src/Player.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Player.cpp > CMakeFiles/Space-Wars.dir/src/Player.cpp.i
 
 CMakeFiles/Space-Wars.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Space-Wars.dir/src/Player.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/C++/Space-Wars/src/Player.cpp -o CMakeFiles/Space-Wars.dir/src/Player.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/Player.cpp -o CMakeFiles/Space-Wars.dir/src/Player.cpp.s
 
 CMakeFiles/Space-Wars.dir/src/main.cpp.o: CMakeFiles/Space-Wars.dir/flags.make
-CMakeFiles/Space-Wars.dir/src/main.cpp.o: /home/tapha/C++/Space-Wars/src/main.cpp
+CMakeFiles/Space-Wars.dir/src/main.cpp.o: /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/main.cpp
 CMakeFiles/Space-Wars.dir/src/main.cpp.o: CMakeFiles/Space-Wars.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Space-Wars.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/main.cpp.o -MF CMakeFiles/Space-Wars.dir/src/main.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/main.cpp.o -c /home/tapha/C++/Space-Wars/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Space-Wars.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Space-Wars.dir/src/main.cpp.o -MF CMakeFiles/Space-Wars.dir/src/main.cpp.o.d -o CMakeFiles/Space-Wars.dir/src/main.cpp.o -c /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/main.cpp
 
 CMakeFiles/Space-Wars.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Space-Wars.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/C++/Space-Wars/src/main.cpp > CMakeFiles/Space-Wars.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/main.cpp > CMakeFiles/Space-Wars.dir/src/main.cpp.i
 
 CMakeFiles/Space-Wars.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Space-Wars.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/C++/Space-Wars/src/main.cpp -o CMakeFiles/Space-Wars.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/src/main.cpp -o CMakeFiles/Space-Wars.dir/src/main.cpp.s
 
 # Object files for target Space-Wars
 Space__Wars_OBJECTS = \
@@ -144,7 +144,7 @@ Space-Wars: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1
 Space-Wars: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1
 Space-Wars: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
 Space-Wars: CMakeFiles/Space-Wars.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Space-Wars"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Space-Wars"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Space-Wars.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +156,6 @@ CMakeFiles/Space-Wars.dir/clean:
 .PHONY : CMakeFiles/Space-Wars.dir/clean
 
 CMakeFiles/Space-Wars.dir/depend:
-	cd /home/tapha/C++/Space-Wars/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tapha/C++/Space-Wars /home/tapha/C++/Space-Wars /home/tapha/C++/Space-Wars/build /home/tapha/C++/Space-Wars/build /home/tapha/C++/Space-Wars/build/CMakeFiles/Space-Wars.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles/Space-Wars.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Space-Wars.dir/depend
 

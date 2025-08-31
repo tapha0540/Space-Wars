@@ -1,8 +1,11 @@
 #include "../include/Player.hpp"
+#include "../log/logError.cpp"
 
-Player::Player(const std::string& textureImagePath) {
-	if(!texture.loadFromFile(textureImagePath) ) {
-		throw std::runtime_error("impossible to load the image with the path " + textureImagePath);
+Player::Player(const std::string& textureImagePath, std::vector<std::string>& errorsMessages) {
+	sf::Image image;
+	image.loadFromFile(textureImagePath); 
+	if(!texture.loadFromImage(image) ) {
+		errorsMessages.push_back("src/Player.cpp:8 -> Impossible to load the image with path" + textureImagePath);
 	}
 	sprite.setScale(0.25f, 0.25f);
 	sprite.setPosition(400, 300);
@@ -12,13 +15,24 @@ Player::Player(const std::string& textureImagePath) {
 void Player::drawOn(sf::RenderWindow& window) {
 	window.draw(sprite);
 }
-void Player::handleInput() {
+void Player::handleInput(sf::RenderWindow& window) {
+	float dx = 0, dy = 0;
+
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) 
-		sprite.move(0, -speed);
+		dy = -speed;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) 
-		sprite.move(0, speed);
+		dy = speed;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) 
-		sprite.move(-speed, 0);
+		dx = -speed;
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) 
-		sprite.move(speed, 0);
+		dx = speed;
+	sf::Vector2f newPos = sprite.getPosition() + sf::Vector2f(dx, dy);
+	sf::FloatRect bounds = sprite.getGlobalBounds();
+	const sf::Vector2u& windowSize = window.getSize();
+	if(newPos.x < 0) newPos.x = 0;
+	if(newPos.x + bounds.width > windowSize.x) newPos.x = windowSize.x - bounds.width;
+
+	if(newPos.y < 0) newPos.y = 0;
+	if(newPos.y + bounds.height > windowSize.y) newPos.y = windowSize.y - bounds.height;
+	sprite.setPosition(newPos);
 }

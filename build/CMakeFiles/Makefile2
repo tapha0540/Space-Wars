@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tapha/C++/Space-Wars
+CMAKE_SOURCE_DIR = /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tapha/C++/Space-Wars/build
+CMAKE_BINARY_DIR = /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Space-Wars.dir/clean
 CMakeFiles/Space-Wars.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/C++/Space-Wars/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Space-Wars"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Space-Wars"
 .PHONY : CMakeFiles/Space-Wars.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Space-Wars.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Space-Wars.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/C++/Space-Wars/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles 0
 .PHONY : CMakeFiles/Space-Wars.dir/rule
 
 # Convenience name for target.

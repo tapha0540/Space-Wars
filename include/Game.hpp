@@ -3,12 +3,13 @@
 #include <vector>
 #include "../include/Player.hpp"
 #include "../include/BadGuy.hpp"
-//#include "../include/Fireball.hpp"
+#include "../include/Fireball.hpp"
 
 class Game {
 	public:
 		Game();
 		void run();
+		std::vector<std::string> errorsMessages;
 	private:
 		void processEvents();
 		void update();
@@ -17,5 +18,5 @@ class Game {
 		sf::RenderWindow window;
 		Player player;
 		std::vector<BadGuy> badGuys;
-		//vector<Fireball> fireballs;
+		std::vector<Fireball> fireballs;
 };
