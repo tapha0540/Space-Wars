@@ -1,10 +1,13 @@
 #include "../include/Game.hpp"
 
 Game::Game() : 
-			window( sf::VideoMode(800, 600), "Space wars" ),
-			player("../assets/images/vaisseau-spatial.png", errorsMessages)
+		window( sf::VideoMode(800, 600), "Space wars" ),
+		background("../assets/images/background-1.jpg", errorsMessages),
+		player("../assets/images/vaisseau-spatial.png", errorsMessages),
+		logFile("./game.log", std::ios::app)
 	{
 	badGuys.emplace_back("../assets/images/badGuy.png", errorsMessages);
+	fireballs.emplace_back("../assets/images/fireball-flame-ball.gif",errorsMessages);
 	window.setFramerateLimit(60);
 }
 
@@ -13,6 +16,7 @@ void Game::run() {
 		processEvents();
 		update();
 		render();
+		logErrorsMessages();
 	}
 }
 
@@ -28,20 +32,35 @@ void Game::processEvents() {
 		}
 	}
 	
-	player.handleInput(window);
+	player.handleInput(windowSize);
 	
 }
 
 void Game::update() {
-	// logique du jeu
+	windowSize = window.getSize();
 
 }
 
 void Game::render() {
-	window.clear(sf::Color::Black);
-	player.drawOn(window);
+	window.clear();
+
+	background.drawOn(window);
 	for (BadGuy& badGuy : badGuys ) {
 		badGuy.drawOn(window);
 	}
+	player.drawOn(window);
+	for (Fireball& fireball : fireballs) {
+		fireball.drawOn(window);
+	}
 	window.display();
+}
+void Game::logErrorsMessages() {
+	if(!logFile.is_open()) 
+		std::runtime_error("src/Game.cpp:50 -> Unable to open the log file !");
+	if(!errorsMessages.empty()) {
+		for(std::string& errorMessage : errorsMessages) {
+			logFile << errorMessage << std::endl;
+		}
+		errorsMessages.clear();
+	}
 }

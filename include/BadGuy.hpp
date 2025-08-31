@@ -1,9 +1,11 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <vector>
+#include <string>
 
 class BadGuy {
 	public:
-		BadGuy(const std::string& textureImagePath, std::vector<std::string>& errorsMessages);
+		BadGuy(const std::string& badguyImagePath, std::vector<std::string>& errorsMessages);
 		
 		void drawOn(sf::RenderWindow& window);
 		void handleInput();

@@ -81,12 +81,12 @@ clean: CMakeFiles/Space-Wars.dir/clean
 CMakeFiles/Space-Wars.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Space-Wars"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Space-Wars"
 .PHONY : CMakeFiles/Space-Wars.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Space-Wars.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Space-Wars.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/build/CMakeFiles 0
 .PHONY : CMakeFiles/Space-Wars.dir/rule

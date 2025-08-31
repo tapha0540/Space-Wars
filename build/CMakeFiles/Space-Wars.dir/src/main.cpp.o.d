@@ -235,7 +235,12 @@ CMakeFiles/Space-Wars.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Glsl.hpp /usr/include/SFML/Graphics/Glsl.inl \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
- /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /usr/include/SFML/Graphics/VertexBuffer.hpp /usr/include/c++/13/fstream \
+ /usr/include/c++/13/istream /usr/include/c++/13/bits/istream.tcc \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h \
+ /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
+ /usr/include/c++/13/bits/fstream.tcc \
+ /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/Background.hpp \
  /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/Player.hpp \
  /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/BadGuy.hpp \
  /home/tapha/Bureau/Programming/C-C++/LearningC++/Space-Wars/include/../include/Fireball.hpp

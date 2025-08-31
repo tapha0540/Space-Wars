@@ -129,6 +129,30 @@ Space-Wars/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/build
 .PHONY : Space-Wars/fast
 
+src/Background.o: src/Background.cpp.o
+.PHONY : src/Background.o
+
+# target to build an object file
+src/Background.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Background.cpp.o
+.PHONY : src/Background.cpp.o
+
+src/Background.i: src/Background.cpp.i
+.PHONY : src/Background.i
+
+# target to preprocess a source file
+src/Background.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Background.cpp.i
+.PHONY : src/Background.cpp.i
+
+src/Background.s: src/Background.cpp.s
+.PHONY : src/Background.s
+
+# target to generate assembly for a file
+src/Background.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Background.cpp.s
+.PHONY : src/Background.cpp.s
+
 src/BadGuy.o: src/BadGuy.cpp.o
 .PHONY : src/BadGuy.o
 
@@ -152,6 +176,30 @@ src/BadGuy.s: src/BadGuy.cpp.s
 src/BadGuy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.s
 .PHONY : src/BadGuy.cpp.s
+
+src/Fireball.o: src/Fireball.cpp.o
+.PHONY : src/Fireball.o
+
+# target to build an object file
+src/Fireball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Fireball.cpp.o
+.PHONY : src/Fireball.cpp.o
+
+src/Fireball.i: src/Fireball.cpp.i
+.PHONY : src/Fireball.i
+
+# target to preprocess a source file
+src/Fireball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Fireball.cpp.i
+.PHONY : src/Fireball.cpp.i
+
+src/Fireball.s: src/Fireball.cpp.s
+.PHONY : src/Fireball.s
+
+# target to generate assembly for a file
+src/Fireball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Space-Wars.dir/build.make CMakeFiles/Space-Wars.dir/src/Fireball.cpp.s
+.PHONY : src/Fireball.cpp.s
 
 src/Game.o: src/Game.cpp.o
 .PHONY : src/Game.o
@@ -234,9 +282,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Space-Wars"
+	@echo "... src/Background.o"
+	@echo "... src/Background.i"
+	@echo "... src/Background.s"
 	@echo "... src/BadGuy.o"
 	@echo "... src/BadGuy.i"
 	@echo "... src/BadGuy.s"
+	@echo "... src/Fireball.o"
+	@echo "... src/Fireball.i"
+	@echo "... src/Fireball.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

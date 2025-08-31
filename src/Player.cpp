@@ -1,10 +1,9 @@
 #include "../include/Player.hpp"
-#include "../log/logError.cpp"
+
 
 Player::Player(const std::string& textureImagePath, std::vector<std::string>& errorsMessages) {
 	sf::Image image;
-	image.loadFromFile(textureImagePath); 
-	if(!texture.loadFromImage(image) ) {
+	if(!image.loadFromFile(textureImagePath) | !texture.loadFromImage(image) ) {
 		errorsMessages.push_back("src/Player.cpp:8 -> Impossible to load the image with path" + textureImagePath);
 	}
 	sprite.setScale(0.25f, 0.25f);
@@ -15,7 +14,7 @@ Player::Player(const std::string& textureImagePath, std::vector<std::string>& er
 void Player::drawOn(sf::RenderWindow& window) {
 	window.draw(sprite);
 }
-void Player::handleInput(sf::RenderWindow& window) {
+void Player::handleInput( sf::Vector2u& windowSize ) {
 	float dx = 0, dy = 0;
 
 	if(sf::Keyboard::isKeyPressed(sf::Keyboard::Up)) 
@@ -28,7 +27,6 @@ void Player::handleInput(sf::RenderWindow& window) {
 		dx = speed;
 	sf::Vector2f newPos = sprite.getPosition() + sf::Vector2f(dx, dy);
 	sf::FloatRect bounds = sprite.getGlobalBounds();
-	const sf::Vector2u& windowSize = window.getSize();
 	if(newPos.x < 0) newPos.x = 0;
 	if(newPos.x + bounds.width > windowSize.x) newPos.x = windowSize.x - bounds.width;
 

@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Space-Wars.dir/src/Background.cpp.o"
+  "CMakeFiles/Space-Wars.dir/src/Background.cpp.o.d"
   "CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o"
   "CMakeFiles/Space-Wars.dir/src/BadGuy.cpp.o.d"
+  "CMakeFiles/Space-Wars.dir/src/Fireball.cpp.o"
+  "CMakeFiles/Space-Wars.dir/src/Fireball.cpp.o.d"
   "CMakeFiles/Space-Wars.dir/src/Game.cpp.o"
   "CMakeFiles/Space-Wars.dir/src/Game.cpp.o.d"
   "CMakeFiles/Space-Wars.dir/src/Player.cpp.o"
