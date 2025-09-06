@@ -2,7 +2,7 @@
 
 Fireball::Fireball(const std::string& FireballTextureImagePath, std::vector<std::string>& errorsMessages) {
     sf::Image image;
-    if(!image.loadFromFile(FireballTextureImagePath) | !FireballTexture.loadFromImage(image)) {
+    if(!image.loadFromFile(FireballTextureImagePath) || !FireballTexture.loadFromImage(image)) {
         errorsMessages.push_back("src/Fireball.cpp:5 -> the image with path " + FireballTextureImagePath + " Did not load correctly");
     }
     FireballSprite.setTexture(FireballTexture);

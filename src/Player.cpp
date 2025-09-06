@@ -3,7 +3,7 @@
 
 Player::Player(const std::string& textureImagePath, std::vector<std::string>& errorsMessages) {
 	sf::Image image;
-	if(!image.loadFromFile(textureImagePath) | !texture.loadFromImage(image) ) {
+	if(!image.loadFromFile(textureImagePath) || !texture.loadFromImage(image) ) {
 		errorsMessages.push_back("src/Player.cpp:8 -> Impossible to load the image with path" + textureImagePath);
 	}
 	sprite.setScale(0.25f, 0.25f);
